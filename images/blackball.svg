@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="470" viewBox="0 0 420 470">
-  <g id="Group_1955" data-name="Group 1955" transform="translate(-12464 908)">
-    <path id="Path_5023" data-name="Path 5023" d="M210,0C325.98,0,420,94.02,420,210S325.98,420,210,420,0,325.98,0,210,94.02,0,210,0Z" transform="translate(12464 -908)" fill="#175fe5" opacity="0.57"/>
-    <path id="Path_5024" data-name="Path 5024" d="M96.329,0A96.329,96.329,0,1,1,0,96.329,96.329,96.329,0,0,1,96.329,0Z" transform="translate(12464.341 -630.659)" fill="#ffffff" opacity="0.47"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="87.003" height="87.003" viewBox="0 0 87.003 87.003" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path d="M 1.623 -0.034 L 16.46 24.71 L -13.215 24.71 L 1.623 -0.034 Z" style="stroke: rgb(233, 255, 253); stroke-width: 0px; fill: rgb(255, 78, 24);" transform="matrix(0.978136, 0.207968, -0.193998, 0.981106, 53.638069, 33.063358)" bx:shape="triangle -13.215 -0.034 29.675 24.744 0.5 0 1@e53bf210"/>
+  <path d="M 32.036 15.284 L 41.436 31.759 L 21.436 31.759 L 32.036 15.284 Z" style="fill: rgb(255, 4, 0);" transform="matrix(0.974383, -0.224894, 0.224894, 0.974383, -12.259991, 11.319835)" bx:shape="triangle 21.436 15.284 20 16.475 0.53 0 1@0b2057d1"/>
+  <path d="M 16.018 8.251 L 20.718 17.145 L 10.718 17.145 L 16.018 8.251 Z" style="fill: rgb(255, 0, 98);" transform="matrix(-0.308961, -0.951075, 0.951075, -0.308961, 69.67511, 92.065147)" bx:shape="triangle 10.718 8.251 10 8.894 0.53 0 1@e9cbe1f2"/>
 </svg>

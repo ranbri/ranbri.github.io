@@ -1,0 +1,1 @@
+web: node fronend/index.html
