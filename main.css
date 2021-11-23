@@ -422,8 +422,8 @@ li{
     animation:move2 4s infinite;
 }
 
-.my-skills{
-    border-top: 4px solid #ff2600;   
+.my-education{
+    border-top: 4px solid rgb(156, 156, 156);   
     position: relative;
     margin-top: 15rem;
     display: grid;
@@ -431,14 +431,14 @@ li{
     grid-gap: 3rem;
     text-align: left;
 }
-.skill{
+.education{
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
 }
 
-.skill h3{
+.education h3{
     text-align: left;
     color: #61bed9;
     letter-spacing: 2px;
@@ -446,13 +446,13 @@ li{
     margin: 2rem -2px 2rem 0;
 
 }
-.skill h1{
+.education h1{
     text-align: left;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
 
-.my-skills .skill{
+.my-education .education{
     border-right: none;
     margin-right:  1rem;
     padding-right: 1rem;
@@ -460,22 +460,22 @@ li{
 }
 
 
-.my-skills .skill:last-of-type{
+.my-education .education:last-of-type{
     padding-bottom: 0;
     margin-bottom: 0;
     border: none;
 }
 
 
-.my-skills .skill::before,
-.my-skills .skill::after{
+.my-education .education::before,
+.my-education .education::after{
     position: absolute;
     display: grid;
     left: 0%;
     transform: translateX(-50%);
 }
 
-.my-skills .skill::before{
+.my-education .education::before{
     content: attr(data-date);
     top: -5rem;
     text-align-last: auto;
@@ -485,22 +485,23 @@ li{
     margin-left: 5rem;
 }
 
-.my-skills .skill::after{
+.my-education .education::after{
     top: -1rem;
+    left: 50%;
     content: '';
-    box-shadow: 0 0 0 4px #ff2600;
+    box-shadow: 0 0 0 4px #77cee6;
     border-radius: 100%;
     height: 1.5rem;
     width: 1.5rem; 
     background-color: rgb(61, 61, 61);
 }
 
-.my-skills a{
+.my-education a{
     color:#ff0000;
     font-size: 1.5rem;
     text-decoration: underline;
 }
-.my-skills a:hover{
+.my-education a:hover{
 color:#ff0000;
 }
 /*End services*/
@@ -650,8 +651,55 @@ color:#ff0000;
 
 /*End timeline*/
 
-/*Start contact*/
-/*End contact*/
+/*Start Skills*/
+.my-skills{
+    display: block;
+    position: relative;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    grid-gap: 3rem;
+    text-align: left;
+    --shadowColor: blue;
+}
+.my-skills tr{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    grid-gap: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 8px;
+    
+}
+.my-skills td{
+    display:inline-block;
+    padding:5px;
+}
+.my-skills td:hover{
+    cursor:default;
+    color: white;
+    background-size: 4px 100px;
+    text-shadow: -2px 2px var(--shadowColor);
+    
+}
+#click {
+    color: transparent;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: -20px;
+    font-size: 2rem;
+}
+.fa-arrow-down{
+    color: transparent;
+    position: relative;
+    display: flex;
+    left: 45%;
+    top: 40px;
+    font-size: 4rem;
+}
+
+/*End Skills*/
 
 /*Start footer*/
 .copyright{
@@ -704,7 +752,6 @@ color:#ff0000;
 
 	70% {
 		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
 	}
 
 	100% {
@@ -844,8 +891,8 @@ color:#ff0000;
         top: 100rem;
      
     }
-    .my-skills{
-        border-top: 4px solid #ff2600;   
+    .my-education{
+        border-top: 2px solid #929292;   
         position: relative;
         margin-top: 10rem;
         display: grid;
@@ -854,7 +901,7 @@ color:#ff0000;
         grid-gap: 1rem;
         text-align: left;
     }
-    .skill{
+    .education{
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -862,21 +909,21 @@ color:#ff0000;
          
     }
     
-    .skill h3{ 
+    .education h3{ 
         text-align: left;
-        color: rgb(61, 61, 61);
+        color: #77cee6;
         letter-spacing: 2px;
         font-size: medium;
         margin: 2rem -2px 2rem 0;
     
     }
-    .skill h1{
+    .education h1{
         text-align: left;
         letter-spacing: 1px;
         margin: 2rem -2px 2rem 0;
     }
     
-    .my-skills .skill{
+    .my-education .education{
         border-right: none;
         margin-right:  0rem;
         padding-right: 0rem;
@@ -884,30 +931,30 @@ color:#ff0000;
     }
     
     
-    .my-skills .skill:last-of-type{
+    .my-education .education:last-of-type{
         padding-bottom: 0;
         margin-bottom: 0;
         border: none;
     }
     
     
-    .my-skills .skill::before,
-    .my-skills .skill::after{
+    .my-education .education::before,
+    .my-education .education::after{
         position: absolute;
         display: grid;
         left: 0%;
         transform: translateX(-50%);
     }
-    .my-skills a{
+    .my-education a{
             color:#ff961e;
             font-size: 1.5rem;
             text-decoration: underline;
     }
-    .my-skills a:hover{
+    .my-education a:hover{
         color:#c26700;
     }
 
-    .my-skills .skill::before{
+    .my-education .education::before{
         content: attr(data-date);
         top: -5rem;
         text-align-last: auto;
@@ -919,10 +966,11 @@ color:#ff0000;
         margin-left: 2rem;
     }
     
-    .my-skills .skill::after{
+    .my-education .education::after{
         top: -1rem;
+        left: 50%;
         content: '';
-        box-shadow: 0 0 0 4px #ff2600;
+        box-shadow: 0 0 0 4px #77cee6;
         border-radius: 100%;
         height: 1.5rem;
         width: 1.5rem; 
@@ -1033,8 +1081,23 @@ color:#ff0000;
     .skills-img{
         top: 100%;
     }
-    .my-skills{
-        border-left: 4px solid #ff2600;   
+    #click {
+        color: rgb(102, 102, 102);
+        text-align: center;
+        margin-top: -50px;
+        margin-bottom: -20px;
+        font-size: 2rem;
+    }
+    .fa-arrow-down{
+        color: rgb(102, 102, 102);
+        position: relative;
+        display: flex;
+        left: 45%;
+        top: 40px;
+        font-size: 4rem;
+    }
+    .my-education{
+        border-left: 2px solid #aaaaaa;   
         border-top: none;
         position: relative;
         align-items: center;
@@ -1044,14 +1107,14 @@ color:#ff0000;
         grid-gap: 2.5rem;
         text-align: left;
     }
-    .skill{
+    .education{
         display: flex;
         flex-direction: column;
         justify-content: left;
         align-items: left;
     }
     
-    .skill h3{
+    .education h3{
         text-align: left;
         color: #77cee6;
         letter-spacing: 2px;
@@ -1061,7 +1124,7 @@ color:#ff0000;
     }
   
     
-    .my-skills .skill{
+    .my-education .education{
         border-right: none;
         margin-right:  1rem;
         padding-right: 1rem;
@@ -1069,25 +1132,26 @@ color:#ff0000;
     }
     
     
-    .my-skills .skill:last-of-type{
+    .my-education .education:last-of-type{
         padding-bottom: 0;
         margin-bottom: 0;
         border: none;
     }
     
-    .my-skills p{
-        margin-left: 2rem;
-        font-size: 1.5rem;
+    .my-education p{
+        padding-right: 2rem;
+        margin-left: 1rem;
+        font-size: 1.4rem;
     }
-    .my-skills .skill::before,
-    .my-skills .skill::after{
+    .my-education .education::before,
+    .my-education .education::after{
         position: absolute;
         display: grid;
         left: 0%;
         transform: translateX(-50%);
     }
     
-    .my-skills .skill::before{
+    .my-education .education::before{
         content: attr(data-date);
         left: -9rem;
         width: 10rem;
@@ -1096,29 +1160,13 @@ color:#ff0000;
         min-width: 10rem;
         font-size: 1.5rem;
         color: white;
-        text-align: center;
+        text-align: r;
     }
     
-    .my-skills .skill::after{
-        top: -1rem;
-        content: '';
-        box-shadow: 0 0 0 4px #ff5a3d;
-        border-radius: 100%;
-        height: 1.5rem;
-        width: 1.5rem; 
-        background-color: rgb(61, 61, 61);
-    }
-    
-    .my-skills a{
-            color:#ff1e1e;
-            font-size: 1.3rem;
-            margin-left: 2rem;
-            margin-bottom: 2rem;
-    }
-    .my-skills a:hover{
-        color:#c20000;
-    }
 
+    .my-education h3::after {
+        color: #77cee6;
+        }
     .portfolio-item{
         flex-direction: column;
     }
