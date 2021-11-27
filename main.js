@@ -26,6 +26,18 @@ $(document).ready(function () {
         duration: 1800
     });
 });
+
+function toggleLightMode() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+    var tr = document.getElementById("skills-table");
+    tr.classList.toggle("light-mode");
+    var ul = document.getElementById("timeline");
+    ul.classList.toggle("light-mode");
+    console.log(ul);
+ }
+
+
 let skills = [
     "Angular",
     "NodeJS",
