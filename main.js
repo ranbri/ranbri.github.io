@@ -34,7 +34,6 @@ function toggleLightMode() {
     tr.classList.toggle("light-mode");
     var ul = document.getElementById("timeline");
     ul.classList.toggle("light-mode");
-    console.log(ul);
  }
 
 
