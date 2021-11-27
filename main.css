@@ -23,12 +23,9 @@ body{
     background: rgb(62, 61s, 61) no-repeat center fixed;
     background-size: cover;
 
-}
-
-body html {
-    overflow-x: hidden !important;
 
 }
+
 
 section{
     padding: 6rem 0;
