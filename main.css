@@ -23,8 +23,11 @@ body{
     height: 100%;
     background: rgb(62, 61, 61) no-repeat center fixed;
     background-size: cover;
+
+}
+
+body html {
     overflow-x: hidden !important;
-    overflow-x: hidden;
 }
 
 section{
