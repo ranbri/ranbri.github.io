@@ -19,7 +19,6 @@ html{
 
 body{
     max-width: 50% !important ;
-    overflow-x: hidden;
     width: 50%;
     height: 100%;
     background: rgb(62, 61, 61) no-repeat center fixed;
