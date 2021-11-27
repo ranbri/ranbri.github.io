@@ -199,7 +199,6 @@ li{
 .light-mode{
     background: rgb(235, 235, 235) !important;
     color: rgb(54, 54, 54) !important;
-
 }
 
 .light-mode tr{
@@ -221,7 +220,7 @@ li{
     font-size: 12px;
 }
 .mode i{
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .menu-toggler.open{
