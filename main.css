@@ -658,7 +658,7 @@ color:#ff0000;
 
 /*Start Skills*/
 .my-skills{
-
+    display: block;
     position: relative;
     margin-top: 10rem;
     display: grid;
