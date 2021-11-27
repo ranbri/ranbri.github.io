@@ -9,8 +9,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    margin-right: -200px;
-    padding-right: -200px;
 }
 
 html{
@@ -21,13 +19,12 @@ html{
 }
 
 body{
-    max-width: 100%;
+    max-width: 100% !important;
     overflow-x: hidden;
-    width: 100%;
+    width: 80;
     height: 100%;
     background: rgb(62, 61, 61) no-repeat center fixed;
     background-size: cover;
-    overflow-x: hidden !important;
 }
 
 section{
