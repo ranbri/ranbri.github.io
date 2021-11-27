@@ -15,7 +15,6 @@ html{
     font-size: 10px;
     font-family: 'Gotham Medium';
     color: #ececec;
-    overflow-x: hidden;
 }
 
 body{
@@ -25,6 +24,7 @@ body{
     background: rgb(62, 61, 61) no-repeat center fixed;
     background-size: cover;
     overflow-x: hidden !important;
+    overflow-x: hidden;
 }
 
 section{
