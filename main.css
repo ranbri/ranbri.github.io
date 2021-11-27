@@ -6,21 +6,22 @@
 
 
 *{
-    width: 100% !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 html{
     font-size: 10px;
     font-family: 'Gotham Medium';
     color: #ececec;
+    overflow-x: hidden;
 }
 
 body{
-    
+    max-width: 100%;
+    overflow-x: hidden;
+    width: 100%;
     height: 100%;
     background: rgb(62, 61, 61) no-repeat center fixed;
     background-size: cover;
@@ -812,7 +813,10 @@ color:#ff0000;
 
 /*Start media queries*/
 @media screen and (max-width: 768px){
+
     body{
+        max-width: 100%;
+        overflow-x: hidden;
         width: 100%;
         height: 100%;
         background: rgb(61, 61, 61) no-repeat center fixed;
