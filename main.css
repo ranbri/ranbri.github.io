@@ -18,9 +18,9 @@ html{
 }
 
 body{
-    max-width: 80% !important ;
+    max-width: 50% !important ;
     overflow-x: hidden;
-    width: 80%;
+    width: 50%;
     height: 100%;
     background: rgb(62, 61, 61) no-repeat center fixed;
     background-size: cover;
