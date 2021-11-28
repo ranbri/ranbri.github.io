@@ -48,7 +48,6 @@ let skills = [
     "MySQL",
     "Postman",
     "Git",
-    "Visual Studio Code",
     "HTML",
     "CSS",
     "JavaScript",
