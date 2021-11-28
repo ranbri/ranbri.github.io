@@ -197,12 +197,13 @@ li{
 }
 
 .light-mode{
-    background: rgb(235, 235, 235) !important;
+    background: rgb(235, 235, 235) ;
     color: rgb(54, 54, 54) !important;
 }
 
 .light-mode tr{
     color: rgb(92, 92, 92) !important;
+    background: transparent !important;
 }
 
 .light-mode ul{ 
@@ -210,6 +211,7 @@ li{
     color: rgb(54, 54, 54) !important;
 
 }
+
 
 .light-mode h1{ 
     color: rgb(54, 54, 54) !important;
@@ -695,7 +697,6 @@ color:#ff0000;
 
 /*Start Skills*/
 .my-skills{
-   
     position: relative;
     margin-top: 10rem;
     display: grid;
@@ -716,7 +717,7 @@ color:#ff0000;
 }
 .my-skills td{
     display:inline-block;
-    padding:5px;
+    padding:2px;
 }
 .my-skills td:hover{
     cursor:default;
@@ -855,12 +856,45 @@ color:#ff0000;
 @media screen and (max-width: 768px){
 
     body{
-        max-width: 100%;
         overflow-x: hidden;
-        width: 100%;
-        height: 100%;
         background: rgb(61, 61, 61) no-repeat center fixed;
         background-size: cover;
+    }
+    #click {
+        color: rgb(102, 102, 102);
+        text-align: center;
+        margin-top: -50px;
+        margin-bottom: -20px;
+        font-size: 2rem;
+    }
+    .fa-arrow-down{
+        color: rgb(102, 102, 102);
+        position: relative;
+        display: flex;
+        left: 41%;
+        top: 40px;
+        font-size: 4rem;
+    }
+    .skills{
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+        left: 38%;
+    }
+
+    .my-skills tr{
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(2rem,1fr));
+        grid-gap: 18rem;
+        text-align: center;
+        font-size: 2rem;
+        margin-left:-55%;
+        
+        
+    }
+    .my-skills td {
+        width: 20rem;
     }
     p{
         font-size: small;
@@ -1060,6 +1094,13 @@ color:#ff0000;
 }
 
 @media screen and (max-width: 600px){
+    .skills{
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+        left: 23%;
+    }
+
     .menu-toggler{
         top: 2rem;
         right: 2rem;
