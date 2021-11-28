@@ -34,6 +34,10 @@ function toggleLightMode() {
     tr.classList.toggle("light-mode");
     var ul = document.getElementById("timeline");
     ul.classList.toggle("light-mode");
+    var copyright = document.getElementById("copyright");
+    console.log(copyright);
+    copyright.classList.toggle("light-copyright");
+
  }
 
 
@@ -60,6 +64,7 @@ let skills = [
     "Express.JS",
     "Web Services API"
 ]
+skills = skills.reverse();
 var table = document.getElementById('skills-table');
 function AddSkills() {
     i = 0;
