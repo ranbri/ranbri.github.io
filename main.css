@@ -859,6 +859,15 @@ color:#ff0000;
 /*End animations*/
 
 /*Start media queries*/
+@media screen and (max-width: 1200px){
+    html, body {
+        overflow-x: hidden;
+      }
+   section{
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+}
 @media screen and (max-width: 768px){
 
     body{
