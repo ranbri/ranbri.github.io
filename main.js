@@ -35,7 +35,6 @@ function toggleLightMode() {
     var ul = document.getElementById("timeline");
     ul.classList.toggle("light-mode");
     var copyright = document.getElementById("copyright");
-    console.log(copyright);
     copyright.classList.toggle("light-copyright");
 
  }
