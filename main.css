@@ -1367,8 +1367,9 @@ color:#ff0000;
 @media screen and (max-width: 400px){
 
     body{
+        position: relative;
         background: rgb(62, 61, 61) no-repeat center fixed;
-        width: 100%;
+        width: 105%;
         height: 100%;
         background-size: cover;
         overflow-x: hidden !important;
