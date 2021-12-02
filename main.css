@@ -1366,20 +1366,8 @@ color:#ff0000;
 
 @media screen and (max-width: 400px){
 
-    body{
-        position: relative;
-        background: rgb(62, 61, 61) no-repeat center fixed;
-        width: 105%;
-        height: 100%;
-        background-size: cover;
-        overflow-x: hidden !important;
-    }
-    .skills{
-        position: relative;
-        display: inline-block;
-        box-sizing: border-box;
-        left: 23%;
-        
-    }
+    html, body {
+        overflow-x: hidden;
+      }
 
 }
