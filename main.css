@@ -55,8 +55,12 @@ body {
     margin: 2px;
 }
 .projects .card {
+    border-radius: 12px;
     width: 45rem !important;
     height: 60rem !important;
+}
+.projects .card img{
+    border-radius: 12px 12px 0 0;
 }
 
 .freeFall:hover{
