@@ -16,6 +16,7 @@
     <link rel='icon' href='favicon.ico' type='image/x-icon' />
     <link href="//db.onlinewebfonts.com/c/bd317adf74e5e7e564eb61ce9926cc6d?family=Gotham" rel="stylesheet"
         type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="//db.onlinewebfonts.com/c/9a2bc11be56851dde98c1b49302cc21a?family=Gotham+Medium" rel="stylesheet"
         type="text/css" />
     <link href="//db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo" rel="stylesheet"
@@ -44,6 +45,10 @@
 
                 </li>
                 <li>
+                    <a href="#projects" class="nav-link">Projects</a>
+
+                </li>
+                <li>
                     <a href="#services" class="nav-link">Education</a>
 
                 </li>
@@ -59,13 +64,13 @@
             </ul>
         </nav>
         <div class="mode">
-            <i class="far fa-lightbulb" onclick="toggleLightMode()"></i>
+            <i class="far fa-lightbulb " id="lightbulb" onclick="toggleLightMode()"></i>
         </div>
         <div class="landing-text">
 
 
             <h1>Ran Bar Ilan</h1>
-            <h6>FullStack Web Developer </h6>
+            <h6 class="text-light">FullStack Web Developer </h6>
             <div class="scrolldown">
                 <span></span>
                 <span></span>
@@ -87,18 +92,18 @@
 
             <div class="about-details" data-aos="fade-up" data-aos-delay="300ms">
                 <div class="about-heading">
-                    <h1>About</h1>
+                    <h1 class="text-muted">About</h1>
                 </div>
                 <br>
                 <h3> Hi! I'm Ran </h3>
                 <br>
-                <p>
+                <p class="text-muted">
                     An aspiring FullStack developer looking for my next job.
 
                     <br>
                     <br>
                     <a href="https://docs.google.com/document/d/1b3vxywY5rEwvnCqbW2YicW8nf4QbnaQ8/edit?usp=sharing&ouid=103314216829253914103&rtpof=true&sd=true"
-                        class="cta">Checkout my Resume</a>
+                        class="cta link-info" style="text-decoration: underline;">Checkout my Resume</a>
                 </p>
                 <br>
 
@@ -362,7 +367,7 @@
 
     <footer class="copyright" id="copyright">
         <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
+            <i class="fas fa-chevron-up text-light"></i>
         </div>
         <p>&copy; RBI &copy;</p>
     </footer>

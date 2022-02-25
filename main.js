@@ -36,32 +36,29 @@ function toggleLightMode() {
     ul.classList.toggle("light-mode");
     var copyright = document.getElementById("copyright");
     copyright.classList.toggle("light-copyright");
-
+    var lightbult = document.getElementById('lightbulb');
+    lightbult.classList.toggle('light-bulb');
  }
 
 
 let skills = [
-    "Angular",
-    "NodeJS",
-    "Redux",
-    "REST API",
-    "MongoDB",
-    "jQuery",
-    "SQL",
-    "MySQL",
-    "Postman",
-    "Git",
     "HTML",
     "CSS",
+    "SCSS",
+    "Bootstrap 5.1",
     "JavaScript",
-    "Excel",
+    "jQuery",
+    "TypeScript",
+    "Angular 13",
+    'NGXS',
     "React",
-    "Bootstrap 4",
+    "Redux",
+    "NodeJS",
+    "MongoDB",
+    "SQL",
+    "Git",
     "Mobile First Design",
     "Single Page Application",
-    "Type Script",
-    "Express.JS",
-    "Web Services API"
 ]
 skills = skills.reverse();
 var table = document.getElementById('skills-table');

@@ -39,6 +39,9 @@ body {
     background-size: cover;
     overflow-x: hidden;
 }
+.light-bulb{
+    color: #fafafa !important;
+}
 
 .projects .logo-img {
     width: 40px !important;
@@ -62,7 +65,7 @@ body {
 .projects .card img{
     border-radius: 12px 12px 0 0;
 }
-
+/* 
 .freeFall:hover{
     transform: scale(1.02);
     z-index: 9999;
@@ -86,7 +89,7 @@ body {
 .biter:active{
     transform: scale(1.4);
     z-index: 9999;
-}
+} */
 
 
 @media screen and (max-width: 420px) {
